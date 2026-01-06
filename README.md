@@ -1,4 +1,4 @@
-# Portfolio
+# MyPortfolio
 
 
 
@@ -109,9 +109,9 @@ Belgaum, Karnataka, India
 <details>
 <summary>📌 Click to see more about me</summary>
 
-- 💡 Interested in **Data Analytics & Business Intelligence**
-- 📚 Constantly learning **DAX, SQL optimization & advanced Power BI**
-- 🚀 Goal: Become a **Professional Data Analyst**
+- 💡 Interested in **Data Analytics & Business Intelligence** <br>
+- 📚 Constantly learning **DAX, SQL optimization & advanced Power BI** <br>
+- 🚀 Goal: Become a **Professional Data Analyst** <br>
 
 </details>
 
