@@ -16,12 +16,13 @@
 
 ## 👋 About Me
 
-I am a **motivated Data Analytics fresher** with practical knowledge of **Power BI, Excel, SQL, and Python**.  
-I enjoy converting raw data into meaningful insights through **clean visuals, interactive dashboards, and reports** to support **data-driven decision-making**.
+I am a **Computer Applications Graduate** from GSS, Belagavi. I have hands-on experience with Python, SQL, and Power BI, and I enjoy working on data analysis, visualization, and problem-solving projects.
+
+Technology excites me, and I am always eager to learn how it can drive change and make an impact. While I am at the start of my career journey, I am passionate about applying my skills in real-world projects, learning new tools, and growing as a professional in the IT field.
 
 
 ### 🎯 Career Objective
-Entry-level Data Analyst / Power BI Developer
+Motivated entry-level Data Analyst eager to transform raw data into meaningful insights using Power BI and data analysis to support data-driven decision-making.
 
 ### 📍 Location
 Belgaum, Karnataka, India
@@ -109,9 +110,9 @@ Belgaum, Karnataka, India
 <details>
 <summary>📌 Click to see more about me</summary>
 
-- 💡 Interested in **Data Analytics & Business Intelligence** <br>
-- 📚 Constantly learning **DAX, SQL optimization & advanced Power BI** <br>
-- 🚀 Goal: Become a **Professional Data Analyst** <br>
+- 💡 Interested in **Data Analytics & Business Intelligence.** <br>
+- 📚 Constantly learning **DAX, SQL optimization & advanced Power BI.** <br>
+- 🚀 Goal: Become a **Professional Data Analyst.** <br>
 
 </details>
 
