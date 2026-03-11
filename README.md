@@ -12,6 +12,11 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/Sandeshpatil9782/Portfolio/blob/main/SPPBI.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_VIEW%20&%20DOWNLOAD%20CV-0D3B66?style=for-the-badge&logo=adobeacrobat&logoColor=white&labelColor=0D3B66&logoWidth=25" />
+  </a>
+</p>
 ---
 
 ## 👋 About Me
