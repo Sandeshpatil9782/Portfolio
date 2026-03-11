@@ -1,0 +1,346 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+  scroll-behavior:smooth;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+  position:fixed;
+  width:100%;
+  background:#0f172a;
+  z-index:1000;
+}
+
+header h2{
+  color:#38bdf8;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin-left:25px;
+  transition:0.3s;
+}
+
+nav a:hover{
+  color:#38bdf8;
+}
+
+section{
+  padding:100px 8%;
+}
+
+h2.section-title{
+  text-align:center;
+  font-size:32px;
+  color:#38bdf8;
+  margin-bottom:20px;
+}
+
+p.section-subtitle{
+  text-align:center;
+  font-size:18px;
+  margin-bottom:40px;
+  color:#aaa;
+}
+
+/* Hero */
+.hero{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  min-height:100vh;
+  flex-wrap:wrap;
+  padding-top:120px;
+}
+
+.hero-text{
+  max-width:600px;
+}
+
+.hero-text h1{
+  font-size:48px;
+}
+
+.hero-text span{
+  color:#38bdf8;
+}
+
+.hero-text p{
+  margin:20px 0;
+}
+
+.btn{
+  padding:12px 25px;
+  background:#38bdf8;
+  color:#0f172a;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:white;
+}
+
+.hero img{
+  width:280px;
+  border-radius:50%;
+  border:5px solid #38bdf8;
+  box-shadow:0 0 30px #38bdf8;
+}
+
+/* About */
+.about-text{
+  max-width:700px;
+  margin:auto;
+  text-align:center;
+  line-height:1.6;
+}
+
+/* Education */
+.education-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+  max-width:900px;
+  margin:auto;
+}
+
+.education-box{
+  background:#1e293b;
+  padding:25px;
+  border-radius:15px;
+}
+
+.education-box h3{
+  color:#38bdf8;
+  margin-bottom:15px;
+}
+
+/* Skills */
+.skills{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+  max-width:900px;
+  margin:auto;
+}
+
+.skill-card{
+  background:#1e293b;
+  padding:20px;
+  border-radius:15px;
+  text-align:center;
+  transition:0.3s;
+}
+
+.skill-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 0 20px #38bdf8;
+}
+
+/* Projects */
+.projects{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:25px;
+  max-width:1000px;
+  margin:auto;
+}
+
+.project-card{
+  background:#1e293b;
+  padding:20px;
+  border-radius:15px;
+  transition:0.3s;
+}
+
+.project-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 0 20px #38bdf8;
+}
+
+/* Contact */
+.contact-container{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+  max-width:900px;
+  margin:auto;
+}
+
+.contact-info p{
+  margin:10px 0;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border:none;
+  border-radius:8px;
+}
+
+.contact-form button{
+  padding:12px;
+  width:100%;
+  border:none;
+  background:#38bdf8;
+  color:#0f172a;
+  font-weight:bold;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.contact-form button:hover{
+  background:white;
+}
+
+/* Footer */
+footer{
+  text-align:center;
+  padding:20px;
+  background:#1e293b;
+}
+
+/* Responsive */
+@media(max-width:900px){
+  .hero{
+    text-align:center;
+    justify-content:center;
+  }
+  .education-grid,
+  .skills,
+  .projects,
+  .contact-container{
+    grid-template-columns:1fr;
+  }
+}
+
+ /* Modal CSS (add inside <style> or at end of CSS) */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow:auto;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  background:#1e293b;
+  color:white;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width:500px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right:15px;
+  top:10px;
+  font-size:28px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+
+/* Make only College card center in the grid */
+.education-box.college-card {
+  grid-column: 1 / -1;   /* spans all columns */
+  justify-self: center;  /* center it horizontally */
+  max-width: 500px;      /* optional, control width */
+}
+
+/* Make Education cards flex and align button to the right */
+.education-box {
+  display: flex;
+  justify-content: space-between; /* space between text and button */
+  align-items: center;            /* vertically center button */
+  background: #1e293b;
+  padding: 20px 25px;
+  border-radius: 15px;
+  gap: 10px; /* optional space between text and button */
+}
+
+/* Ensure the content text does not shrink too much */
+.education-box .edu-content {
+  flex: 1;
+}
+
+/* Skill Icons */
+.skill-card i{
+  font-size:40px;
+  margin-bottom:10px;
+}
+
+/* Different icon colors */
+.python-icon{
+  color:#ffd43b;
+}
+
+.sql-icon{
+  color:#f29111;
+}
+
+.powerbi-icon{
+  color:#f2c811;
+}
+
+.excel-icon{
+  color:#217346;
+}
+
+.pandas-icon{
+  color:#e70488;
+}
+
+.dax-icon{
+  color:#8e44ad;
+}
+
+.project-card{
+  background:#1e293b;
+  padding:20px;
+  border-radius:15px;
+  transition:0.3s;
+  min-height:160px;
+}
+
+/* Sales project layout */
+.sales-project{
+  display:flex;
+  flex-direction:column;
+}
+
+/* Button position */
+.sales-project .btn{
+  align-self:flex-end;
+  margin-top:15px;
+}
+
+.sales-project .btn{
+  align-self:flex-end;
+  margin-top:15px;
+}
