@@ -13,7 +13,7 @@
 <body>
 
 <header>
-  <h2>Sandesh Patil</h2>
+  <h2>SANDESH PATIL</h2>
   <nav>
     <a href="#about">About</a>
     <a href="#education">Education</a>
@@ -31,7 +31,7 @@
     <p>BCA Graduate (CGPA: 8.94) passionate about analyzing data and building interactive dashboards that drive business decisions.</p>
     <a href="#contact" class="btn">Hire Me</a>
   </div>
-  <img src="xyz.jpg" alt="Profile Photo">
+  <img src="xy.jpeg" alt="Profile Photo">
 </section>
 
 <!-- About Section -->
@@ -46,7 +46,25 @@ Technology excites me, and I am always eager to learn how it can drive change an
 I am at the start of my career journey, I am passionate about applying my skills in real-world projects, learning new tools,
  and growing as a professional in the IT field.
   </div>
+
+ <div class="cv-buttons">
+  <button onclick="showCV()" class="btn">
+    <i class="fa-solid fa-eye"></i> View CV
+  </button>
+
+  <a href="Sandesh.pdf" download class="btn">
+    <i class="fa-solid fa-download"></i> Download CV
+  </a>
+</div>
+
 </section>
+<div id="cv-viewer">
+
+<span class="close-btn" onclick="closeCV()">✖</span>
+
+<iframe src="Sandesh.pdf"></iframe>
+
+</div>
 
 <!-- Education Section -->
 <section id="education">
@@ -113,7 +131,7 @@ I am at the start of my career journey, I am passionate about applying my skills
     <span class="close" onclick="closeModal('eduModal')">&times;</span>
     <h2>Bachelor of Computer Applications</h2>
     <p>Duration: 2022–2025</p><br/>
-    <p>Key Subjects: Programming in C,JAVA,C++,DBMS, Python, SQL,Data Structures,WCMS,CS,CN</p><br/>
+    <p>Key Subjects: Programming in C,JAVA,DBMS, Python, SQL,Data Structures,WCMS,CS,CN</p><br/>
     <p>Achievements: Awards in College Level Competitions like Techspektra(2025),Codeathon(2025)</p>
   </div>
 </div>
@@ -223,6 +241,9 @@ I am at the start of my career journey, I am passionate about applying my skills
 <!-- Contact Section -->
 <section id="contact">
   <h2 class="section-title">Contact Me</h2>
+
+ 
+
   <p class="section-subtitle">Get in touch for opportunities</p>
   <div class="contact-container">
     <div class="contact-info">
@@ -231,12 +252,22 @@ I am at the start of my career journey, I am passionate about applying my skills
       <p><strong>Location:</strong> Karnataka, India</p>
       <p>✔ I am open to full-time opportunities and internships in Data Analytics & BI roles.</p>
     </div>
-    <form class="contact-form">
+    <!-- <form class="contact-form">
       <input type="text" placeholder="Your Name" required>
       <input type="email" placeholder="Your Email" required>
       <textarea rows="5" placeholder="Your Message" required></textarea>
       <button type="submit">Send Message</button>
-    </form>
+
+
+    </form> -->
+
+    <form class="contact-form" 
+onsubmit="window.open('https://forms.gle/Q2pxzimCtZjRSWiV9'); return false;">
+
+<button type="submit">Send Message</button>
+
+</form>
+
   </div>
 </section>
 

@@ -6,7 +6,7 @@
 }
 
 body{
-  background:#0f172a;
+  background:#333068;
   color:white;
   scroll-behavior:smooth;
 }
@@ -23,7 +23,7 @@ header{
 }
 
 header h2{
-  color:#38bdf8;
+  color:#e9eef0;
 }
 
 nav a{
@@ -120,7 +120,7 @@ p.section-subtitle{
 }
 
 .education-box{
-  background:#1e293b;
+  background:#201e8f;
   padding:25px;
   border-radius:15px;
 }
@@ -172,7 +172,6 @@ p.section-subtitle{
   transform:translateY(-8px);
   box-shadow:0 0 20px #38bdf8;
 }
-
 /* Contact */
 .contact-container{
   display:grid;
@@ -183,7 +182,7 @@ p.section-subtitle{
 }
 
 .contact-info p{
-  margin:10px 0;
+  margin:30px 0;
 }
 
 .contact-form input,
@@ -196,19 +195,20 @@ p.section-subtitle{
 }
 
 .contact-form button{
-  padding:12px;
+  margin-top:70px;
+  padding:32px;
   width:100%;
   border:none;
   background:#38bdf8;
   color:#0f172a;
   font-weight:bold;
-  border-radius:8px;
+  border-radius:  300%;
   cursor:pointer;
 }
 
 .contact-form button:hover{
   background:white;
-}
+} 
 
 /* Footer */
 footer{
@@ -343,4 +343,48 @@ footer{
 .sales-project .btn{
   align-self:flex-end;
   margin-top:15px;
+}
+
+.cv-buttons{
+margin-top:20px;
+display:flex;
+gap:15px;
+justify-content:center;
+}
+
+/* ADD THIS PART */
+.cv-buttons .btn{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:8px;
+
+width:190px;   /* same button width */
+height:50px;   /* same button height */
+
+border-radius:40px;
+}
+
+/* CV viewer */
+#cv-viewer{
+display:none;
+margin-top:40px;
+text-align:center;
+position:relative;
+}
+
+#cv-viewer iframe{
+width:80%;
+height:600px;
+border-radius:10px;
+border:2px solid #38bdf8;
+}
+
+.close-btn{
+position:absolute;
+right:8%;
+top:-10px;
+font-size:28px;
+cursor:pointer;
+color:rgb(243, 232, 232);
 }

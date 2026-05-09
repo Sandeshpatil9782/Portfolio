@@ -12,3 +12,16 @@ window.onclick = function(event){
     event.target.style.display='none';
   }
 }
+
+
+
+
+function showCV(){
+document.getElementById("cv-viewer").style.display="block";
+}
+
+function closeCV(){
+document.getElementById("cv-viewer").style.display="none";
+}
+
+
